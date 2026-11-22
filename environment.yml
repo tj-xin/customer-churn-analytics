@@ -1,0 +1,17 @@
+
+name: churn-analysis
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - matplotlib
+      - seaborn
+      - jupyterlab
+      - ipykernel
