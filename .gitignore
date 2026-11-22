@@ -1,0 +1,30 @@
+
+# Kaggle datasets
+data/
+*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
