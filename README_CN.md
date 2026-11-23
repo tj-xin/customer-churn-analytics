@@ -22,6 +22,12 @@
 | LightGBM Brier Score | **0.0954** |
 | Top 20% 客户流失召回率 | **63.36%** |
 
+### Kaggle 公开 Notebook
+
+[在 Kaggle 查看完整分析](https://www.kaggle.com/code/tujixin/customer-churn-prediction-eda-lightgbm-busine)
+
+公开 Notebook 包含探索性数据分析、逻辑回归、LightGBM、模型评价、客户风险分层及假设性留存收益模拟。
+
 **主要成果：**
 
 - 完成从数据理解、探索性分析、模型训练到 Kaggle 提交的完整分析流程。
@@ -403,7 +409,8 @@ customer-churn-analytics/
 │   ├── 02_baseline_model.ipynb
 │   ├── 03_lightgbm_model.ipynb
 │   ├── 04_business_analysis.ipynb
-│   └── 05_final_submission.ipynb
+│   ├── 05_final_submission.ipynb
+│   └── 06_kaggle_publication.ipynb
 ├── reports/
 │   ├── baseline_results.md
 │   ├── lightgbm_results.md
@@ -459,15 +466,7 @@ conda env create -f environment.yml
 conda activate churn-analysis
 ```
 
-当前环境文件包含基础数据处理、可视化和 Notebook 依赖。
-
-另外安装建模和 SQL 分析相关依赖：
-
-```bash
-python -m pip install scikit-learn lightgbm duckdb
-```
-
-后续将统一完善 `environment.yml`，减少手动安装步骤。
+`environment.yml` 已包含数据处理、机器学习建模、SQL 分析、可视化及 Notebook 所需依赖。
 
 ### 10.3 下载数据
 

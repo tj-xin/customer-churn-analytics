@@ -22,6 +22,12 @@ This project combines statistical analysis, interpretable machine learning, grad
 | LightGBM Brier Score | **0.0954** |
 | Recall@Top 20% | **63.36%** |
 
+### Public Kaggle Notebook
+
+[View the complete analysis on Kaggle](https://www.kaggle.com/code/tujixin/customer-churn-prediction-eda-lightgbm-busine)
+
+The published notebook covers EDA, Logistic Regression, LightGBM, model evaluation, risk segmentation, and hypothetical retention profit simulation.
+
 **Key achievements:**
 
 - Developed a complete analytical workflow from data exploration to Kaggle submission.
@@ -377,7 +383,8 @@ customer-churn-analytics/
 │   ├── 02_baseline_model.ipynb
 │   ├── 03_lightgbm_model.ipynb
 │   ├── 04_business_analysis.ipynb
-│   └── 05_final_submission.ipynb
+│   ├── 05_final_submission.ipynb
+│   └── 06_kaggle_publication.ipynb
 ├── reports/
 │   ├── baseline_results.md
 │   ├── lightgbm_results.md
@@ -433,15 +440,7 @@ conda env create -f environment.yml
 conda activate churn-analysis
 ```
 
-The current environment file includes the core data processing and notebook dependencies.
-
-Install additional modeling and SQL packages:
-
-```bash
-python -m pip install scikit-learn lightgbm duckdb
-```
-
-These packages should eventually be added to `environment.yml` to consolidate dependency management.
+The Conda environment file includes the data processing, modeling, SQL, visualization, and notebook dependencies.
 
 ### 10.3 Download the Dataset
 
