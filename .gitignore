@@ -28,3 +28,7 @@ models/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Kaggle submission files
+kaggle/submissions/
+kaggle/submission.csv
